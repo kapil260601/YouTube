@@ -39,7 +39,7 @@ const LiveChat = () => {
         className="w-full px-2 my-2 ml-2 p-2 border border-black rounded-lg"
         onSubmit={(e) => {
           e.preventDefault();
-          //   console.log("on form submit", liveMessage);
+          //   console.log("on form submiting the data", liveMessage);
           dispatch(
             addMessage({
               name: "Alex Carry",
